@@ -1,0 +1,165 @@
+VERSION 5.00
+Begin {C0E45035-5775-11D0-B388-00A0C9055D8E} DataEnvironment1 
+   ClientHeight    =   9870
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   10140
+   _ExtentX        =   17886
+   _ExtentY        =   17410
+   FolderFlags     =   1
+   TypeLibGuid     =   "{CAAE3A65-3AB7-46E0-A9C9-D9723AA65750}"
+   TypeInfoGuid    =   "{5187ED9C-A4C1-44BD-B70A-7CDF47F17A3B}"
+   TypeInfoCookie  =   0
+   Version         =   4
+   NumConnections  =   1
+   BeginProperty Connection1 
+      ConnectionName  =   "Connection1"
+      ConnDispId      =   1001
+      SourceOfData    =   3
+      ConnectionSource=   "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=F:\mainproject1\convertbank.mdb;Persist Security Info=False"
+      Expanded        =   -1  'True
+      QuoteChar       =   96
+      SeparatorChar   =   46
+   EndProperty
+   NumRecordsets   =   1
+   BeginProperty Recordset1 
+      CommandName     =   "Command1"
+      CommDispId      =   1002
+      RsDispId        =   1005
+      CommandText     =   "emp"
+      ActiveConnectionName=   "Connection1"
+      CommandType     =   2
+      dbObjectType    =   1
+      IsRSReturning   =   -1  'True
+      NumFields       =   15
+      BeginProperty Field1 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "id"
+         Caption         =   "id"
+      EndProperty
+      BeginProperty Field2 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   202
+         Name            =   "name"
+         Caption         =   "name"
+      EndProperty
+      BeginProperty Field3 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   202
+         Name            =   "family"
+         Caption         =   "family"
+      EndProperty
+      BeginProperty Field4 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   202
+         Name            =   "name of father"
+         Caption         =   "name of father"
+      EndProperty
+      BeginProperty Field5 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   202
+         Name            =   "identitycard"
+         Caption         =   "identitycard"
+      EndProperty
+      BeginProperty Field6 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   202
+         Name            =   "mellicode"
+         Caption         =   "mellicode"
+      EndProperty
+      BeginProperty Field7 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   202
+         Name            =   "sex"
+         Caption         =   "sex"
+      EndProperty
+      BeginProperty Field8 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "date of birthday"
+         Caption         =   "date of birthday"
+      EndProperty
+      BeginProperty Field9 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   202
+         Name            =   "mahale sodor"
+         Caption         =   "mahale sodor"
+      EndProperty
+      BeginProperty Field10 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "number of wife"
+         Caption         =   "number of wife"
+      EndProperty
+      BeginProperty Field11 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "number of children"
+         Caption         =   "number of children"
+      EndProperty
+      BeginProperty Field12 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   202
+         Name            =   "bime omr"
+         Caption         =   "bime omr"
+      EndProperty
+      BeginProperty Field13 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   202
+         Name            =   "semat"
+         Caption         =   "semat"
+      EndProperty
+      BeginProperty Field14 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "tel"
+         Caption         =   "tel"
+      EndProperty
+      BeginProperty Field15 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   202
+         Name            =   "address"
+         Caption         =   "address"
+      EndProperty
+      NumGroups       =   0
+      ParamCount      =   0
+      RelationCount   =   0
+      AggregateCount  =   0
+   EndProperty
+End
+Attribute VB_Name = "DataEnvironment1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
