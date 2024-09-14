@@ -1,0 +1,16 @@
+Private Sub Command1_Click( )
+If Text1.Text = " " Or Text2.Text = " " Or Text3.Text = " " Or Text4.Text = " " Or Text5.Text = " " Or Text6.Text = " " Or Text7.Text = " " Then
+")لطفا تمام فیلها را پرکنیدresult = MsgBox("
+Else
+Adodc1.Recordset.AddNew
+Adodc1.Recordset.Update
+
+Text1.Text=" " 
+Text2.Text=" " 
+Text3.Text=" " 
+Text4.Text=" " 
+ " " Text5.Text
+Text6.Text=" " 
+Text7.Text=" " 
+End If
+End Sub
