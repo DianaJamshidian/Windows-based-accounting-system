@@ -1,0 +1,25 @@
+Private Sub cmdsabtemp_Click( )
+If Text1.Text = " " Or Text2.Text = " " Or Text3.Text = " " Or Text4.Text = " " Or Text5.Text = " " Or Text6.Text = " " Or Text8.Text = " " Or Text9.Text = " " Or Text10.Text = " " Or Text11.Text = " " Or Text12.Text = " " Or Text13.Text = " " Or Text14.Text = " " Or Text15.Text = " " Then
+)"لطفا تمامی فیلدها را پرکنید Result=msgbox("
+
+Else
+Adodc1.Recordset.AddNew
+Adodc1.Recordset.update
+
+
+Text1.Text=" " 
+Text2.Text=" " 
+Text3.Text=" " 
+Text4.Text=" " 
+Text5.Text=" " 
+Text6.Text=" " 
+Text8.Text=" " 
+Text9.Text=" " 
+Text10.Text=" " 
+Text11.Text=" " 
+Text12.Text=" " 
+Text13.Text=" " 
+Text14.Text=" " 
+Text15.Text=" " 
+End If
+End Sub
