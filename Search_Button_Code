@@ -1,0 +1,3 @@
+Private Sub cmdsearch_Click( )
+Data20.Recordset.FindFirst "id=' " & Text1.Text & "  ' " 
+End Sub
