@@ -1,0 +1,8 @@
+Private Sub cmdenter_Click( )
+If Text1.Text = "diana" And Text2.Text = "406" Then
+mainform.Show
+frmenter.Hide
+Else
+"نام کاربری یا رمز عبور را اشتباه وارد کرده ایدLabel4.Caption=" 
+End If
+End Sub
