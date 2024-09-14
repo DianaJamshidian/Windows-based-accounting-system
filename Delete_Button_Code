@@ -1,0 +1,7 @@
+Private Sub Command2_Click( )
+Data19.Recordset.FindFirst "id=' " &  Text1.Text  & " ' " 
+
+
+	( )	Private Sub cmddeltemp_Click
+Data19.Recordset.Delete
+Data19.Refresh
